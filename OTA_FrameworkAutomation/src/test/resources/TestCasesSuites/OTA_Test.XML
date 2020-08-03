@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<suite name="GoogelBotFramwork" >
+<test name="ChromeTest">
+<parameter name="BrowserName" value="chrome"/>
+<classes>
+<class name="OTA_Booking.BookingGoogleBot"/>
+</classes>
+</test>
+
+<test name="FireFoxTest">
+<parameter name="BrowserName" value="firefox"/>
+
+
+<classes>
+<class name="OTA_Booking.BookingGoogleBot"/>
+</classes>
+</test>
+
+<test name="InternetExploreTest">
+<parameter name="BrowserName" value=""/>
+
+<classes>
+<class name="OTA_Booking.BookingGoogleBot"/>
+</classes>
+</test>
+
+</suite>

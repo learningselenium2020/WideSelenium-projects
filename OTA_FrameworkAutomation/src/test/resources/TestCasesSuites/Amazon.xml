@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<suite name="GoogelBotFramwork" parallel="tests">
+<test name="ChromeTest">
+<parameter name="BrowserName" value="chrome"/>
+<parameter name="weburl" value="amazonurl"/>
+
+<classes>
+<class name="AmazonTest.ItemSelect"/>
+</classes>
+</test>
+
+<test name="FireFoxTest">
+<parameter name="BrowserName" value="firefox"/>
+<parameter name="weburl" value="amazonurl"/>
+
+<classes>
+<class name="AmazonTest.ItemSelect"/>
+</classes>
+</test>
+
+<test name="InternetExploreTest">
+<parameter name="BrowserName" value=""/>
+<parameter name="weburl" value="amazonurl"/>
+
+<classes>
+<class name="AmazonTest.ItemSelect"/>
+</classes>
+</test>
+
+</suite>
